@@ -1,0 +1,31 @@
+⚙️ What is EC2?
+Amazon EC2 lets you run virtual servers (called instances) in the cloud. These can be used for:
+- Hosting websites
+- Running applications or databases
+- Processing big data workloads
+- Practicing system administration and deployment skills
+
+🧩 Key Concepts
+| Term | Meaning | 
+| AMI | Amazon Machine Image — a template with OS, software, configs | 
+| Instance Type | Defines hardware capacity (e.g., CPU, RAM). Types: t2.micro, m5.large, etc. | 
+| Security Group | Virtual firewall to control inbound/outbound traffic | 
+| Key Pair | Used for secure SSH access to your EC2 instance | 
+| Elastic IP | Static, public IPv4 address for your instance | 
+
+
+
+
+[A[A[A[A🚀 Step-by-Step: How to Launch an EC2 Instance
+- Log in to AWS Console
+- Go to EC2 Dashboard
+- Click Launch Instance
+- Choose an AMI (e.g., Ubuntu, Amazon Linux)
+- Select Instance Type (e.g., t2.micro for free tier)
+- Configure Instance Details (Number of instances, network settings)
+- Add Storage (default is 8 GB, can be customized)
+- Add Tags (like Name = MyFirstEC2)
+- Configure Security Group (Allow SSH from your IP)
+- Select/Create a Key Pair for login
+- Launch the instance
+- Use SSH to connect:
